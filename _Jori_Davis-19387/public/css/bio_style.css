@@ -1,0 +1,66 @@
+/* Formatting for top heading of chef_bio webpage */
+body {
+    margin: 0;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    background-image: url(../img/diner.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.h1 {
+    color:white;
+    background-color: black;
+    background-size: cover;
+    font-family:'Courier New', Courier, monospace;
+    position: relative;
+    top:0px;
+    margin: 0px;
+    width: 100%;
+    padding: 10px;
+}
+
+/* Format for second heading on chef_bio webpage */
+
+#bio_h2 {
+    font-family:'Courier New', Courier, monospace;
+    padding: 20px;
+}
+
+/* Formatting for the link to the diner homepage */
+
+.homepage {
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+    padding: 50px;
+    text-decoration: none; /* removes underline from hyperlink */
+}
+
+/* This is the bio image formatting */
+
+.image {
+    text-align: center; /* aligns the picture in center */
+    border: 5px black;
+    padding: 40px;
+}
+
+/* Formatting for the text on the chef_bio webpage */
+
+.paragraph {
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+    padding: 50px;
+
+}
+
+/* This is the footing for each webpage on the diner website */
+
+.footer {
+    color: white;
+    background-color: black;
+    text-align:center;
+    background-size: cover;
+    font-family:'Courier New', Courier, monospace;
+    padding: 5px;
+}

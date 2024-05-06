@@ -1,0 +1,141 @@
+body {
+    margin: 0;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    background-image: url(../img/diner.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.h1 {
+    color:white;
+    background-color: black;
+    background-size: cover;
+    font-family:'Courier New', Courier, monospace;
+    position: relative;
+    top:0px;
+    margin: 0px;
+    width: 100%;
+    padding: 50px;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+
+#h2 {
+    font-family:'Courier New', Courier, monospace;
+    padding: 10px;
+    text-align: center;
+}
+
+
+.navbar {
+    font-family:'Courier New', Courier, monospace;
+    position:absolute;
+    top: 20px;
+    width: 100%;
+    padding: 10px 10px;
+}
+
+.navigation ul {
+    list-style-type: none;
+    margin: 65px;
+    padding: 0px;
+}
+
+.navigation li {
+    float: left; /
+    
+}
+
+.navigation li a {
+    display: block;
+    color: red;
+    text-align: left;
+    padding: 5px 16px;
+    text-decoration: none;
+
+}
+
+.navigation li a:hover {
+    background-color: orange;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160 px;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.navigation button {
+    display: block;
+    color: black;
+    position: absolute;
+    right: 20px;
+}
+
+.navigation button a:hover {
+    background-color: orange;
+}
+
+#h2 {
+    color: black;
+    text-align:center;
+    font-family:'Courier New', Courier, monospace;
+    padding: 5px; 
+}
+
+.form {
+    color: black;
+    text-align:center;
+    font-family:'Courier New', Courier, monospace;
+    padding: 5px;
+    padding-top: 20px;
+    display: block;
+    border-top: 2px solid;
+    margin: 0 auto;
+}
+
+#food {
+    font-family:'Courier New', Courier, monospace;
+}
+
+#name {
+    font-family:'Courier New', Courier, monospace;
+}
+
+#studentID {
+    font-family:'Courier New', Courier, monospace;
+}
+
+#number {
+    font-family:'Courier New', Courier, monospace;
+}
+
+#quantity {
+    font-family:'Courier New', Courier, monospace;
+}
+
+.footer {
+    color: white;
+    background-color: black;
+    text-align:center;
+    background-size: cover;
+    font-family:'Courier New', Courier, monospace;
+    padding: 5px;
+}

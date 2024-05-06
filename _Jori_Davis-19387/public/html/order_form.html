@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/order_form.css">
+    <title>Order Online</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="h1">Order Online</h1>
+        <p></p>
+        <p></p>
+        </div>
+        <div class="navigation">
+            <nav class="navbar">
+                <ul>
+                  <li class="dropdown">
+                    <a href="#" class="dropbtn">Food</a>
+                    <div class="dropdown-content">
+                      <a href="meal_plans.html">Meal Plans</a>
+                      <a href="order_form.html">Order</a>
+                      <a href="faqs.html">FAQs</a>
+                    </div>
+                  </li>
+                  <li class="dropdown">
+                    <a href="#" class="dropbtn">Hours</a>
+                    <div class="dropdown-content">
+                      <a href="hours_operation.html">Hours of Operation</a>
+                      <a href="menu.html">Menu</a>
+                      <a href="map.html">Campus Map</a>
+                    </div>
+                  </li>
+                  <li class="dropdown">
+                    <a href="#" class="dropbtn">Wellness</a>
+                    <div class="dropdown-content">
+                      <a href="links.html">Nutrition Links</a>
+                    </div>
+                  </li>
+                  <li class="dropdown">
+                    <a href="#" class="dropbtn">About Us</a>
+                    <div class="dropdown-content">
+                      <a href="chef_bio.html">Chef Bio</a>
+                      <a href="mission_statement.html">Mission Statment</a>
+                      <a href="reviews.html">Reviews</a>
+                    </div>
+                  </li>
+                </ul>
+              </nav>
+        </div>
+    <div>
+    <div class="form_div">
+      <h2 id="h2">Order Form</h2>
+      <form class="form" action="/submit" method="POST">
+        <br><br>
+        <label for="item1">Please input item price:</label>
+        <input type="text" id="item1" name="item1" required>
+        </input> <br><br>
+        <label for="item2">Input additional item price:</label>
+          <input type="text" id="item2" name="item2" required>
+          </input> <br><br>
+        <label for="item3">Input additional item price: </label>
+          <input type="text" id="item3" name="item3" required>
+          </input> <br><br>
+        <br><br>
+        <span id="error" class="error"></span>
+        <button type="submit">Calculate Total</button> <br><br>
+      </form>
+    </div>
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+    <div class="footer">   
+        <footer>
+            <p><b>Davis Classic Dining 2024. All rights reserved.</b></p>
+        </footer>
+    </div>
+</body>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Form</title>
+    <style>
+        /* Optional: Add some basic styling */
+        .error {
+            color: red;
+        }
+    </style>
+</head>
+<body>

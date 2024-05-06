@@ -1,0 +1,141 @@
+body {
+    margin: 0;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    background-image: url(../img/diner.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: bottom;
+    height: 100vh;
+    color: red;
+}
+
+.h1 {
+    color:white;
+    background-color: black;
+    background-size: cover;
+    font-family:'Courier New', Courier, monospace;
+    position: relative;
+    top:0px;
+    margin: 0px;
+    width: 100%;
+    padding: 50px;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+
+#h2 {
+    font-family:'Courier New', Courier, monospace;
+    padding: 10px;
+    text-align: center;
+}
+
+
+.navbar {
+    font-family:'Courier New', Courier, monospace;
+    position:absolute;
+    top: 20px;
+    width: 100%;
+    padding: 10px 10px;
+}
+
+.navigation ul {
+    list-style-type: none;
+    margin: 65px;
+    padding: 0px;
+}
+
+.navigation li {
+    float: left; /
+    
+}
+
+.navigation li a {
+    display: block;
+    color: red;
+    text-align: left;
+    padding: 5px 16px;
+    text-decoration: none;
+
+}
+
+.navigation li a:hover {
+    background-color: orange;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160 px;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.navigation button {
+    display: block;
+    color: black;
+    position: absolute;
+    right: 20px;
+}
+
+.navigation button a:hover {
+    background-color: orange;
+}
+
+#label {
+    font-family:'Courier New', Courier, monospace;
+    padding: 10px;
+    top: 20px;
+    padding-left: 20px;
+    text-align: center;
+}
+
+#day {
+    font-family:'Courier New', Courier, monospace;
+    padding: 10px;
+    top: 20px;
+    padding-left: 20px;
+}
+
+#menu {
+    font-family:'Courier New', Courier, monospace;
+    padding: 10px;
+    top: 20px;
+    padding-left: 20px;
+}
+
+iframe {
+    border: 5px solid black;
+    display: block;
+    margin: 0 auto;
+}
+
+#map {
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+.footer {
+    color: white;
+    background-color: black;
+    text-align:center;
+    background-size: cover;
+    font-family:'Courier New', Courier, monospace;
+    padding: 5px;
+    flex-shrink: 0;
+}
